@@ -19,7 +19,7 @@ library(ggplot2)
 download_page <- "https://oceanhealthindex.org/global-scores/data-download/"
 browseURL(download_page) #opens the webpage
 # read in data
-inDir = "C:/Users/mckenna/Documents/GitHub/MIIS-DataCourse/" #update this to your computer!!
+inDir = "G:/My Drive/Data to Policy/Data to Policy (student)/data/GitHub/Data-Env-Decision-Making/SeeingData/" #update this to your computer!!
 data = read.csv( paste0(inDir,"scores.csv") )
 
 #HOW MUCH DATA?? ####
